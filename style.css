@@ -109,6 +109,18 @@ nav a:hover{
     margin-bottom: 25px;
     position: relative;
 }
+.col-62{
+    width: 600px;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+.col-63{
+    width: 600px;
+    overflow: hidden;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #6EBF8E;
+}
+
 .col-5{
     width: 490px;
     padding: 5px;
@@ -125,7 +137,9 @@ nav a:hover{
     float: left;
     overflow: hidden;
     margin-bottom: 20px;
+    border-bottom: 2px solid #6EBF8E;
 }
+
 .col-2{
     width: 290px;
     padding: 5px;
@@ -248,7 +262,14 @@ nav img{
     
 }
 .sa{
-    margin-bottom: 25px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.sal{
+     margin-bottom:15px;
+    margin-top: -5px;
+    font-size: 30px;
+    color: #6EBF8E;
 }
 .ic{
     margin-top: 220px;
@@ -269,6 +290,74 @@ nav img{
     margin-top: 9px;
 }
 
+.box {
+    width: 440px;
+	text-align: left;
+	padding: 20px;
+	list-style: none;
+	float: left;
+}
+
+.box .cover {
+    /*  ⬇︎positionをrelativeにしよう  */
+	position: relative;
+}
+
+.box .cover img {
+    /*  ⬇︎画像を固定しよう  */
+	max-width: 100%;
+	display: block;
+	position: relative;
+}
+
+.box .caption {
+    /*  ⬇︎タイトルと本文を固定しよう  */
+	position: absolute;
+	top: 0;
+	left: 0;
+    
+	padding: 20px;
+	background: #2c3f52;
+	color: #ed4e6e;
+}
+
+.box .caption h3 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+.style-2 .cover img {
+    /*  ⬇︎画像を文字より手前にする  */
+    z-index: 10;
+
+    /*  ⬇︎画像の動きをなめらかに  */
+    
+    -webkit-transition: -webkit-transform 0.4s;
+    -o-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+    
+    
+}
+
+.style-2 .cover:hover img {
+    /*  ⬇︎画像の位置を変える  */
+    -webkit-transform: translateY(-90px);
+    -ms-transform: translateY(-90px);
+    -o-transform: translateY(-90px);
+    transform: translateY(-90px);
+
+    
+    
+    
+}
+
+.style-2 .caption {
+	height: 60px;
+	width: 45.5%;
+	top: auto;
+	bottom: 0;
+}
 div#footer-bk
 {
     background-color: #CBEFDE;

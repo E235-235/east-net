@@ -107,6 +107,7 @@ nav a:hover{
     width: 600px;
     overflow: hidden;
     margin-bottom: 25px;
+    position: relative;
 }
 .col-5{
     width: 490px;
@@ -235,6 +236,7 @@ nav img{
    margin-top: -10px;
     margin-bottom: -6px;
     margin-left: 40px;
+    position: absolute;
 }
 .sai{
     margin-bottom: 10px;

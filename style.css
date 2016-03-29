@@ -69,6 +69,12 @@ nav a:hover{
     margin-bottom: -10px;
     float: right
 }
+.col-72{
+    width: 600px;
+    overflow: hidden;
+    margin-bottom: 1px;
+    float: right
+}
 .col-8{
     width: 600px;
     overflow: hidden;

@@ -167,6 +167,9 @@ nav img{
     color: #f9f9f9;
     transition: 1s;
 }
+.sd3:hover{
+    background: #E1D8EF; 
+}
 .top-image{
     float: left;
     margin-right: 10px;

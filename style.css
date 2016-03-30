@@ -69,11 +69,18 @@ nav a:hover{
     margin-bottom: -10px;
     float: right
 }
-.col-72{
+.col-73{
     width: 600px;
+    border-bottom: 2px solid #6EBF8E;
     overflow: hidden;
     margin-bottom: 1px;
     float: right
+}
+.koo{
+    margin-top: 20px;
+}
+.ko{
+    margin-bottom: 40px;
 }
 .col-8{
     width: 600px;
@@ -217,7 +224,7 @@ nav img{
         margin-top: 14px;
 }
 
-.detech{1
+.detech{
     margin-bottom: 30px;
     
 }

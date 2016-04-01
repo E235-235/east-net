@@ -121,6 +121,7 @@ nav a:hover{
     overflow: hidden;
     margin-bottom: 25px;
     position: relative;
+    border-bottom: 2px solid #6EBF8E;
 }
 .col-62{
     width: 600px;

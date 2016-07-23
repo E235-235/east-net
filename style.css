@@ -97,7 +97,7 @@ nav a:hover{
     overflow: hidden;
     margin-bottom: 20px;
     float: right;
-    margin-bottom: 0px;
+    margin-bottom: -34px;
         
 }
 
@@ -126,7 +126,9 @@ nav a:hover{
 .col-62{
     width: 600px;
     overflow: hidden;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #6EBF8E;
+    margin-bottom: 30px;
 }
 .col-63{
     width: 600px;
@@ -139,6 +141,10 @@ nav a:hover{
     overflow: hidden;
     margin-bottom: 25px;
     border-bottom: 2px solid #FF0000;
+}
+.col-65{
+    width: 600px;
+    overflow: hidden;
 }
 
 .col-5{
@@ -263,6 +269,7 @@ nav img{
     float: left;
     font-size: 15px;
     margin-left: 23px;
+    margin-bottom:  30px;
 }
 nav img{
     float: left;

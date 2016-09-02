@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f9f9f9;
+     position: relative; 
+    font-family: sans-serif;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+  
+}
+.tit{
+    background: #fff;
+    color: #6EBF8E;
+}
+
+.hit{
+    background: #fff;
+    color: #6EBF8E;
+}
+main{
+    width: 600px;
+    overflow: hidden;
+    background: #fff;
+    padding: 20px;
+    float: left;
+    margin-top: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: #2E3B89;
+    padding: 15px;
+    display: block;
+    transition: 0.5s;
+    margin-bottom: 0px;
+}
+nav a:hover{
+    background: #fff;
+    color: #6EBF8E;
+}
+
+.sidebar{
+    width: 300px;
+    float: left;
+    background: #fff;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.col-7{
+    width: 600px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    float: right
+}
+.col-72{
+    width: 600px;
+    overflow: hidden;
+    margin-bottom: -30px;
+    float: right
+}
+.col-71{
+    width: 600px;
+    overflow: hidden;
+    margin-bottom: -10px;
+    float: right
+}
+.col-73{
+    width: 600px;
+    border-bottom: 2px solid #6EBF8E;
+    overflow: hidden;
+    margin-bottom: 1px;
+    float: right
+}
+.koo{
+    margin-top: 20px;
+}
+.ko{
+    margin-bottom: 40px;
+}
+.col-8{
+    width: 600px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    float: right;
+    border-bottom: 2px solid #6EBF8E;
+    margin-bottom: 5px;
+        
+}
+
+.col-82{
+    width: 600px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    float: right;
+    margin-bottom: -30px;
+        
+}
+
+.col-81{
+    width: 600px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    float: right;
+    border-bottom: 2px solid #6EBF8E;
+    margin-bottom: 5px;
+        
+}
+.col-6{
+    width: 600px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #6EBF8E;
+}
+.col-61{
+    width: 600px;
+    overflow: hidden;
+    margin-bottom: 25px;
+    position: relative;
+    border-bottom: 2px solid #6EBF8E;
+}
+.col-62{
+    width: 600px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #6EBF8E;
+    margin-bottom: 30px;
+}
+.col-63{
+    width: 600px;
+    overflow: hidden;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #6EBF8E;
+}
+.col-64{
+    width: 600px;
+    overflow: hidden;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #FF0000;
+}
+.col-65{
+    width: 600px;
+    overflow: hidden;
+}
+
+.col-5{
+    width: 490px;
+    padding: 5px;
+    float: left;
+}
+.col-4{
+    width: 390px;
+    padding: 5px;
+    float: left;
+}
+.col-3{
+    width: 290px;
+    padding: 5px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #6EBF8E;
+}
+
+.col-2{
+    width: 290px;
+    padding: 5px;
+    float: left;
+    overflow: hidden
+}
+.col-1{
+    width: 90px;
+    padding: 5px;
+    float: left;
+}
+nav{
+    overflow: hidden;
+    background: #E1D8EF;
+    margin-: 30px;
+}
+
+nav li{
+    float: left;
+    list-style-type: none;
+}
+
+nav img{
+    margin-left: 30px;
+}
+
+.lit-btn{
+    background: #f9f9f9;
+    color: #6EBF8E ;
+    font-size: 15px;
+    border: 3px solid #6EBF8E ;
+        padding: 8px;
+    text-decoration: none;
+    border-radius: 8px;
+    float: left;
+    margin-bottom: 5px;
+}
+.lit-btn:hover{
+    background: #6EBF8E ;
+    color: #f9f9f9;
+    transition: 1s;
+}
+.sd3:hover{
+    background: #E1D8EF; 
+}
+.top-image{
+    float: left;
+    margin-right: 10px;
+}
+.top-image1{
+    margin-right: 10px;
+}
+
+.title{
+    float: left;
+    font-size: 30px;
+    width: 350px;
+    margin-bottom: 5px;
+}
+
+.title2{
+    float: left;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.col-7 a{
+        margin-top: 14px;
+}
+
+.detech{
+    margin-bottom: 30px;
+    
+}
+.wa{
+    margin-left: 50px;
+}
+.col-7 img{
+}
+.sd{
+    margin-top: 15px;
+}
+.description{
+    float: left;
+    font-size: 15px;
+    width: 350px;
+    margin-bottom: 5px;
+}
+.description2{
+    float: left;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.description4{
+    float: left;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.description5{
+    float: left;
+    font-size: 15px;
+    margin-left: 23px;
+    margin-bottom:  30px;
+}
+nav img{
+    float: left;
+}
+.sd2{
+   margin-top: -20px;
+    margin-bottom: -6px;
+    margin-left: 40px;
+    position: absolute;
+}
+.sai{
+    margin-bottom: 10px;
+    border-bottom: 2px solid #6EBF8E;
+    
+}
+.sai1{
+    margin-bottom: 10px;
+    
+}
+.sa{
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.sal{
+     margin-bottom:15px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #6EBF8E;
+}
+.ic{
+    margin-top: 220px;
+    float: left;
+}
+.twi{
+    margin-top: -10px;
+    border-bottom: 2px solid #6EBF8E;
+}
+.fb-page{
+    margin-top: 10px;
+}
+.col-7 img{
+    float: left;
+}
+.title3{
+    margin-left: -2px;
+    margin-top: 9px;
+}
+
+.box {
+    width: 440px;
+	text-align: left;
+	padding: 20px;
+	list-style: none;
+	float: left;
+}
+
+.box .cover {
+    /*  ⬇︎positionをrelativeにしよう  */
+	position: relative;
+}
+
+.box .cover img {
+    /*  ⬇︎画像を固定しよう  */
+	max-width: 100%;
+	display: block;
+	position: relative;
+}
+
+.box .caption {
+    /*  ⬇︎タイトルと本文を固定しよう  */
+	position: absolute;
+	top: 0;
+	left: 0;
+    
+	padding: 20px;
+	background: #6EBF8E;
+	color: #8E1486;
+}
+
+.box .caption h3 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+.style-2 .cover img {
+    /*  ⬇︎画像を文字より手前にする  */
+    z-index: 10;
+
+    /*  ⬇︎画像の動きをなめらかに  */
+    
+    -webkit-transition: -webkit-transform 0.4s;
+    -o-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+    
+    
+}
+
+.style-2 .cover:hover img {
+    /*  ⬇︎画像の位置を変える  */
+    -webkit-transform: translateY(-90px);
+    -ms-transform: translateY(-90px);
+    -o-transform: translateY(-90px);
+    transform: translateY(-90px);
+
+    
+    
+    
+}
+
+.style-2 .caption {
+	height: 60px;
+	width: 45.5%;
+	top: auto;
+	bottom: 0;
+}
+div#footer-bk
+{
+    background-color: #CBEFDE;
+        width:100%;
+    height: 120px;
+    position: absolute;
+    bottom: -162px;
+    padding: 10px 0;
+}
+div#footer{
+    height: 100px;
+    width: 970px;
+    margin: auto;
+}
+    
+    
